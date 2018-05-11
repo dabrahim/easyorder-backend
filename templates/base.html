@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{% block title %}Page title{% endblock %}</title>
+	<link rel="stylesheet" href="{{rootDir}}/static/css/custom/style.css">
+	<link rel="stylesheet" href="{{rootDir}}/static/css/assets/animate.css">
+	<script type="text/javascript" src="{{rootDir}}/static/js/custom/functions.js"></script>
+	<script type="text/javascript" src="{{rootDir}}/static/js/assets/jquery-3.2.1.js"></script>
+	{% block head %}{% endblock %}
+	{% block styles %}{% endblock %}
+</head>
+<body>
+	<div id="wrapper">
+		<!--<a href="{{rootDir}}/rest/deconnexion">Déconnexion</a>-->
+		{% block content %}{% endblock %}
+	</div>
+	<div id="layer">
+		{% block layer %}{% endblock %}
+	</div>
+</body>
+	{% block scripts %}{% endblock %}
+</html>

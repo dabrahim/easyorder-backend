@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{rootDir}}/static/css/custom/home-page.css">
+{% endblock %}
+
+{% block content %}
+	<div id="main-banner">
+		<div id="btns">
+			<button class="btn" id="login-btn">Se Connecter</button>
+			<button class="btn" id="signup-btn">S'inscrire</button>
+		</div>
+		<div id="brief-presentation">
+			<h1>Pharmaliv</h1>
+			<h2>La société qui vous rapproche de l'essentiel</h2>
+			<p>Bienvenue dans le site officiel de Pharmaliv, la société chargée de vous rapprocher de votre personnel médical. Que vous soyez client, Livreur, Médecin ou pharmacien, la plateforme vous propose diverses solutions pour faciliter votre quotidien.</p>
+		</div>
+	</div>
+{% endblock %}
+
+{% block layer %}
+	<form action="{{rootDir}}/rest/connexion" method="POST" id="form-connexion" class="animated fadeInDown">
+		<h1>Connexion</h1>
+		<input type="text" name="email" placeholder="Votre email" value="{{email}}"><br>
+		<input type="password" name="password" placeholder="Votre mot de passe"><br>
+		<input type="submit" value="Se Connecter"><br>
+		<span>Je n'ai pas encore de compte</span>
+	</form>
+
+	<div id="user-type-picker" class="animated bounceIn">
+		<h1 style="color: white;">Choississez un profil</h1>
+		<div id="types">
+			<div class="type">
+				<div>
+					<h1>Médecin</h1>
+					<img src="{{rootDir}}/static/icons/doctor.png">
+				</div>
+			</div>
+			<div class="type">
+				<a href="{{rootDir}}/pharmacien/inscription">
+					<div>
+						<h1>Pharmacien</h1>
+						<img src="{{rootDir}}/static/icons/bald-pharmacist.png">
+					</div>
+				</a>
+			</div>
+			<div class="type">
+				<a href="{{rootDir}}/client/inscription">
+					<div>
+						<h1>Client</h1>
+						<img src="{{rootDir}}/static/icons/client.png">
+					</div>
+				</a>
+			</div>
+			<div class="type" id="block-livreur">
+				<div>
+					<h1>Livreur</h1>
+					<img src="{{rootDir}}/static/icons/delivery-man.png">
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{rootDir}}/static/js/assets/jquery-3.2.1.js"></script>
+<script src="{{rootDir}}/static/js/custom/home.js"></script>
+{% if show == 'login' %}
+<script>
+    $(document).ready(function() {
+        $('#layer').show();
+        blurElement('#wrapper', 10);
+        $('#form-connexion').show();
+        $('#form-connexion input[type="password"]').focus();
+    });
+</script>
+{% endif %}
+<script>
+    $('#block-livreur').on('click', function () {
+        var clef = prompt('Veuillez saisir votre clef d\'inscription');
+        if (clef.trim() != ''){
+            $.post('./livreur/verifier-clef', {clef : clef}, function (response) {
+				if (response.success){
+                    window.location = '{{rootDir}}/livreur/inscription?clef='+clef;
+                } else {
+					alert( response.message );
+                }
+            },'json');
+        } else {
+            alert('Saississez correctement la clef');
+        }
+    });
+</script>
+{% endblock %}

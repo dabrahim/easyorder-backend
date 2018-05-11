@@ -1,5 +1,12 @@
 {% extends 'base.html' %}
 
+{% block title %}Home Page{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{rootDir}}/static/css/assets/default.css">
+{% endblock %}
+
 {% block content %}
-	<h1>Light PHP Framework</h1>
+<h1 align="center">(Very) Light PHP Framework</h1>
+<img src="{{rootDir}}/static/icons/php-logo.png" alt="PHP Logo">
 {% endblock %}

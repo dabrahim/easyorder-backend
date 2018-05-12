@@ -23,7 +23,18 @@ class UserService extends AbstractService implements UserDAO {
     }
 
     public function authenticate( User $user ) {
-        // TODO: Implement authenticate() method.
+        $pdoStatement = $this->_db->prepare("SELECT * FROM user WHERE email = :email");
+        $pdoStatement->bindValue(':email', $user->getEmail(), PDO::PARAM_STR);
+        $pdoStatement->execute();
+        if ($usr = $pdoStatement->fetch(PDO::FETCH_ASSOC)) {
+            if ($user->getEmail() == $usr['email'] && $user->getPassword() == $usr['password']){
+                return $usr;
+            } else {
+                return false;
+            }
+        } else {
+            return false;
+        }
     }
 
 }

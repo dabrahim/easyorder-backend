@@ -51,3 +51,7 @@ function inscription ( $action ) {
         $action->response()->toJson($result);
     }
 }
+
+function uselessFunction(){
+    //Nothing goes here yet
+}

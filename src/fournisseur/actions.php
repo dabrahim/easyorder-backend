@@ -7,7 +7,7 @@
  */
 
 function home ( $action ) {
-    echo 'Tu es à l\'accueil ! à condition d\être connecté bien évidemment (Pas pour le moment lol)';
+    $action->response()->render( 'accueil-fournisseur.html' );
 }
 
 function inscription ( $action ) {
@@ -50,8 +50,4 @@ function inscription ( $action ) {
 
         $action->response()->toJson($result);
     }
-}
-
-function uselessFunction(){
-    //Nothing goes here yet
 }

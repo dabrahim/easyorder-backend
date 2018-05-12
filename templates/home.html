@@ -21,7 +21,11 @@
         e.preventDefault();
 
         $.post('./rest/connexion', $(this).serialize(), function(response){
-            console.log(response);
+            if(response.success) {
+                localStorage.setItem('eo_jwt_token', response.token);
+            } else {
+                alert("identifiant ou mot de passe incorrect");
+            }
         },'json');
     });
 </script>

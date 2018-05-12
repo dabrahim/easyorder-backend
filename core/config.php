@@ -7,6 +7,7 @@ require '/core/utils/Action.class.php';
 require '/core/utils/functions.php';
 require '/core/sections.php';
 require '/persistence/CustomPDO.php';
+require  '/vendor/autoload.php';
 
 // FONCTION AUTOLOAD
 spl_autoload_register(function ($class){
@@ -20,6 +21,3 @@ spl_autoload_register(function ($class){
         require ("/persistence/model/".$class.".class.php");
     }
 });
-
-session_name( "PHARMALIV_SESSION" );
-session_start();

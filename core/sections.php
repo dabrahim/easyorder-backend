@@ -1,5 +1,5 @@
 <?php
 
 $sections = array (
-	
+	'fournisseur'
 );

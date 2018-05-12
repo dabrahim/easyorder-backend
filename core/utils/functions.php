@@ -60,3 +60,25 @@
                 cos($latFrom) * cos($latTo) * pow(sin($lonDelta / 2), 2)));
         return $angle * $earthRadius;
     }
+
+        function saveFile (array $file, $targetDir, array $authorizedExtensions, $isImage = false, $maxSize = 500000) {
+        if ( $file['size'] < $maxSize ) {
+            if ( $isImage && !getimagesize($file['tmp_name'])) {
+                throw new Exception("Le fichier reçu n'est pas une image");
+            }
+            $fileExtension = strtolower(pathinfo(basename($file['name']), PATHINFO_EXTENSION));
+            if ( in_array($fileExtension, $authorizedExtensions) ){
+                $outputName = random_str(35) . '.' . $fileExtension;
+                $targetFile = $targetDir . $outputName;
+                if (move_uploaded_file($file['tmp_name'], $targetFile)){
+                    return $outputName;
+                } else {
+                    throw new Exception("L'enregistrement du fichier a échoué !");
+                }
+            } else {
+                throw new Exception("L'extension du fichier n'est pas correcte");
+            }
+        } else {
+            throw new Exception("La taille du fichier doit être inférieure à ".$maxSize." kb");
+        }
+    }

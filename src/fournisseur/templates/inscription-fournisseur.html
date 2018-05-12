@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Inscription Fournisseur{% endblock %}
+
+{% block styles %}
+{% endblock %}
+
+{% block content %}
+<h1>Inscription Fournisseur</h1>
+<form action="{{rootDir}}/fournisseur/inscription" method="POST" enctype="multipart/form-data">
+    <input type="text" placeholder="Nom de la Société" name="nomSociete"><br>
+    <input type="text" placeholder="Téléphone" name="telephone"><br>
+    <input type="text" placeholder="Adresse Mail" name="email"><br>
+    <input type="password" placeholder="Mot de passe" name="password"><br>
+    <input type="password" placeholder="Confirmation Mot de passe" name="passwordConf"><br>
+    <input type="file" name="photo" placeholder="Logo Société"><br>
+    <button>S'incrire</button>
+</form>
+{% endblock %}

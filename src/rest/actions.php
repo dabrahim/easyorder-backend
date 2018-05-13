@@ -19,11 +19,20 @@ function connexion ( $action ) {
     $uService = new UserService();
     $user = $uService->authenticate($user);
 
+//    var_dump($user);
+
+
     $key = "5wu{@N\"i!^G>M5z0Zzk,e8,w1G$5[#";
 
-   if ( $user ) {
-       $result['success'] = true;
-       $result['token'] = JWT::encode($user, $key, 'HS256');
+    if ( $user ) {
+        $token = array (
+            'id_user' => $user['id_user'],
+            'type' => $user['type'],
+            'email' => $user['email']
+        );
+
+        $result['success'] = true;
+        $result['token'] = JWT::encode($token, $key, 'HS256');
 
    } else {
        $result['success'] = false;

@@ -7,5 +7,9 @@
  */
 $urls = array (
     '/' => 'home',
-    '/inscription' => 'inscription'
+    '/inscription' => 'inscription',
+    '/all' => 'getAll',
+    '/publier' => 'publierProduit',
+    '/details' => 'getDetails',
+    '/{:}' => 'getDetailsFournisseur'
 );

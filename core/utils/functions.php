@@ -21,6 +21,8 @@
 		echo $twig->render( $template, $data );
 	}*/
 
+	use \Firebase\JWT\JWT;
+
 	function createPattern ( $str ) {
 		return '#^'.preg_replace('({:})', '([a-zA-Z0-9]+)', $str).'$#';
 	}
@@ -81,4 +83,31 @@
         } else {
             throw new Exception("La taille du fichier doit être inférieure à ".$maxSize." kb");
         }
+    }
+
+    function getToken () {
+        $token = null;
+        $headers = apache_request_headers();
+
+        if(isset($headers['Authorization'])){
+            $token = explode(' ', $headers['Authorization'])[1];
+            return $token;
+        } else {
+            return null;
+        }
+    }
+
+    function decodeToken ( $jwt ) {
+        $key = "5wu{@N\"i!^G>M5z0Zzk,e8,w1G$5[#";
+        $decoded = JWT::decode($jwt, $key, array('HS256'));
+        return (array) $decoded;
+    }
+
+    function getTokenData () {
+        $token = getToken();
+        if ($token == null) {
+            throw new Exception("Le token n'a pas été correctement inséré dans l'entête HTTP");
+        }
+        $data = decodeToken( $token );
+        return $data;
     }

@@ -3,11 +3,81 @@
 {% block title %}Accueil Fournisseur{% endblock %}
 
 {% block content %}
-<form action="" method="POST">
+<br>
+<form action="{{rootDir}}/fournisseur/publier" method="POST" enctype="multipart/form-data" id="form-publication-produit">
     <h1>Publier un produit</h1>
-    <!--<button type="submit">Publier produit</button>-->
+    <input type="text" name="titre" placeholder="Titre"><br>
+    <textarea name="description" placeholder="Description"></textarea><br>
+    <input type="number" name="prix" placeholder="Prix"><br>
+    <select name="id_categorie">
+        {% for categorie in categories %}
+            <option value="{{categorie.id_categorie}}">{{categorie.nom_categorie}}</option>
+        {% endfor %}
+    </select><br>
+    <input type="file" name="photo"><br>
+    <button type="submit">Publier produit</button>
 </form>
 {% endblock %}
 
 {% block scripts %}
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $.ajax({
+           url : './fournisseur/details',
+           type : 'GET',
+           dataType : 'json',
+           success : function (sData){
+               $('#wrapper').prepend(JSON.stringify(sData));
+           },
+            beforeSend : function (xhr) {
+                xhr.setRequestHeader("Authorization", "Bearer " + localStorage.getItem("eo_jwt_token"));
+            }
+        });
+
+        $('#form-publication-produit').on('submit', function(e){
+            e.preventDefault();
+
+            var form = $(this);
+            var formData = new FormData(this);
+
+            $.ajax({
+                url : './produit/add',
+                type: 'POST',
+                data : formData,
+                dataType : 'json',
+                success : function (sData){
+                    if (sData.success){
+                        document.getElementById('form-publication-produit').reset();
+                        alert('Le produit a été publié avec succès !');
+                    } else {
+                        alert(sData.message);
+                    }
+                },
+                beforeSend : function (xhr){
+                    xhr.setRequestHeader("Authorization", "Bearer " + localStorage.getItem("eo_jwt_token"));
+                },
+                processData : false,
+                contentType : false
+            });
+        });
+
+        $.ajax({
+           url : './produit/find',
+            type : 'GET',
+            data : {data : JSON.stringify({
+                    idFournisseur : 3,
+                    idCategorie : 6
+                })},
+            dataType : 'json',
+            success : function (sData) {
+
+            },
+            beforeSend : function (xhr) {
+                xhr.setRequestHeader("Authorization", "Bearer " + localStorage.getItem("eo_jwt_token"));
+            }
+        });
+
+    });
+</script>
 {% endblock %}

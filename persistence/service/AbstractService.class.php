@@ -12,4 +12,11 @@ abstract class AbstractService {
     public function __construct() {
         $this->_db = CustomPDO::getInstance();
     }
+
+    /**
+     * @return mixed
+     */
+    public function getDb() {
+        return $this->_db;
+    }
 }

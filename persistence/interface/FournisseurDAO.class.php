@@ -8,4 +8,6 @@
 
 interface FournisseurDAO {
     public function create (Fournisseur $fournisseur);
+
+    public function getAll();
 }

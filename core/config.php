@@ -1,13 +1,13 @@
 <?php
-	
+
 // IMPORTS
+require  '/vendor/autoload.php';
 require '/core/utils/Request.class.php';
 require '/core/utils/Response.class.php';
 require '/core/utils/Action.class.php';
 require '/core/utils/functions.php';
 require '/core/sections.php';
 require '/persistence/CustomPDO.php';
-require  '/vendor/autoload.php';
 
 // FONCTION AUTOLOAD
 spl_autoload_register(function ($class){

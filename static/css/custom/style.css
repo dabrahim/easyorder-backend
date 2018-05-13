@@ -82,3 +82,9 @@ form button {
 button {
     cursor: pointer;
 }
+
+form{
+    display: inline-block;
+    border:1px solid black;
+    padding: 20px 50px;
+}

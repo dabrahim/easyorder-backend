@@ -21,12 +21,12 @@ class FournisseurService extends AbstractService implements FournisseurDAO {
     }
 
     public function getAll() {
-        $pdoStatement = $this->_db->query("SELECT id_user, email, telephone, nom_societe, nom_image_profil FROM user NATURAL JOIN fournisseur");
+        $pdoStatement = $this->_db->query("SELECT id_user, email, telephone, nom_societe, nom_image_profil FROM user INNER JOIN fournisseur ON id_user = id_fournisseur");
         return $pdoStatement->fetchAll(PDO::FETCH_ASSOC);
     }
 
     public function getDetails ( $id ) {
-        $pdoStatement = $this->_db->prepare("SELECT id_user, email, telephone, nom_societe, nom_image_profil FROM user NATURAL JOIN fournisseur WHERE id_user = :idUser");
+        $pdoStatement = $this->_db->prepare("SELECT id_user, email, telephone, nom_societe, nom_image_profil FROM user INNER JOIN fournisseur ON id_user = id_fournisseur WHERE id_user = :idUser");
         $pdoStatement->bindValue(":idUser", $id, PDO::PARAM_INT);
         $pdoStatement->execute();
         return $pdoStatement->fetch(PDO::FETCH_ASSOC);

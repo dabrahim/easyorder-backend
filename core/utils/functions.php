@@ -63,7 +63,7 @@
         return $angle * $earthRadius;
     }
 
-        function saveFile (array $file, $targetDir, array $authorizedExtensions, $isImage = false, $maxSize = 500000) {
+        function saveFile (array $file, $targetDir, array $authorizedExtensions, $isImage = false, $maxSize = 2000000) {
         if ( $file['size'] < $maxSize ) {
             if ( $isImage && !getimagesize($file['tmp_name'])) {
                 throw new Exception("Le fichier reçu n'est pas une image");

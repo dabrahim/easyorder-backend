@@ -16,7 +16,12 @@ function find ( $action ) {
 
     try {
         $payload = getTokenData();
-        $data = json_decode($get['data'], true);
+        if ($payload['type'] === 'FOURNISSEUR') {
+            $data['idFournisseur'] = $payload['id_user'];
+
+        } else {
+            $data = json_decode($get['data'], true);
+        }
 
         $pService = new ProduitService();
         $produits = $pService->find($data);

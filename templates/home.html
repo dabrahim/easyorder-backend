@@ -23,6 +23,7 @@
         $.post('./rest/connexion', $(this).serialize(), function(response){
             if(response.success) {
                 localStorage.setItem('eo_jwt_token', response.token);
+                window.location.reload(false);
             } else {
                 alert("identifiant ou mot de passe incorrect");
             }

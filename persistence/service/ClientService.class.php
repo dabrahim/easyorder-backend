@@ -24,17 +24,21 @@ class ClientService extends AbstractService implements ClientDAO {
 
             $idUser = $this->getDb()->lastInsertId();
 
-            $pdoStatement = $this->getDb()->prepare("INSERT INTO client VALUES (:nom, :prenom, :coordGeo, :idClient)");
-            $pdoStatement->bindValue(":nom", $client->getNom(), PDO::PARAM_STR);
-            $pdoStatement->bindValue(":prenom", $client->getPrenom(), PDO::PARAM_STR);
-            $pdoStatement->bindValue(":coordGeo", $client->getCoordGeo(), PDO::PARAM_STR);
-            $pdoStatement->bindValue(":idClient", $idUser, PDO::PARAM_INT);
-            $pdoStatement->execute();
+            if ($idUser != 0) {
+                $pdoStatement = $this->getDb()->prepare("INSERT INTO client VALUES (:nom, :prenom, :coordGeo, :idClient)");
+                $pdoStatement->bindValue(":nom", $client->getNom(), PDO::PARAM_STR);
+                $pdoStatement->bindValue(":prenom", $client->getPrenom(), PDO::PARAM_STR);
+                $pdoStatement->bindValue(":coordGeo", $client->getCoordGeo(), PDO::PARAM_STR);
+                $pdoStatement->bindValue(":idClient", $idUser, PDO::PARAM_INT);
+                $pdoStatement->execute();
+            }
 
             $this->getDb()->commit();
+            return true;
 
         } catch (Exception $e) {
             $this->getDb()->rollback();
+            return false;
         }
     }
 }

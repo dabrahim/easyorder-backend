@@ -3,5 +3,6 @@
 $sections = array (
 	'fournisseur',
     'rest',
-    'produit'
+    'produit',
+    'client'
 );

@@ -1,0 +1,735 @@
+Request: GET /easyorder/fournisseur/all [] 17-05-2018, 08h 08mn 24s
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 08h 25mn 30s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: GET /easyorder/produit/findAll [] 17-05-2018, 08h 30mn 57s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"5","titre":"T\u00e9l\u00e9phone","description":"Un t\u00e9l\u00e9phone historique","prix":"15000","nom_fichier":"KeMcrysdSzRdoJ4pQ1HwyTQMok5TGNv5ggJ.jpg","id_fournisseur":"5","id_categorie":"2"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 08h 38mn 28s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 09h 16mn 00s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 09h 31mn 39s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 09h 32mn 53s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 09h 49mn 08s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 09h 54mn 06s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 10h 01mn 03s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 10h 02mn 02s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 10h 15mn 36s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 10h 23mn 06s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 11h 08mn 48s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 12h 26mn 10s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 12h 55mn 39s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 13h 04mn 45s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 13h 08mn 28s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 13h 12mn 31s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 13h 19mn 47s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 13h 22mn 55s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 13h 39mn 46s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: GET /easyorder/fournisseur [] 17-05-2018, 13h 41mn 00s ---> <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Accueil Fournisseur</title>
+	<link rel="stylesheet" href="/easyorder/static/css/custom/style.css">
+	<link rel="stylesheet" href="/easyorder/static/css/assets/animate.css">
+	<script type="text/javascript" src="/easyorder/static/js/custom/functions.js"></script>
+	<script type="text/javascript" src="/easyorder/static/js/assets/jquery-3.2.1.js"></script>
+		</head>
+<body>
+	<div id="wrapper">
+		<br>
+<form action="/easyorder/fournisseur/publier" method="POST" enctype="multipart/form-data" id="form-publication-produit">
+    <h1>Publier un produit</h1>
+    <input type="text" name="titre" placeholder="Titre"><br>
+    <textarea name="description" placeholder="Description"></textarea><br>
+    <input type="number" name="prix" placeholder="Prix"><br>
+    <select name="id_categorie">
+                    <option value="1">Cosmï¿½tique</option>
+                    <option value="2">Electronique</option>
+                    <option value="3">Jardin</option>
+                    <option value="4">Prï¿½t ï¿½ porter</option>
+                    <option value="5">Alimentaire</option>
+                    <option value="6">Divers</option>
+            </select><br>
+    <input type="file" name="photo"><br>
+    <button type="submit">Publier produit</button>
+</form>
+	</div>
+	<div id="layer">
+			</div>
+</body>
+	<script type="text/javascript">
+    $(document).ready(function(){
+
+        $.ajax({
+           url : './fournisseur/details',
+           type : 'GET',
+           dataType : 'json',
+           success : function (sData){
+               $('#wrapper').prepend(JSON.stringify(sData));
+           },
+            beforeSend : function (xhr) {
+                xhr.setRequestHeader("Authorization", "Bearer " + localStorage.getItem("eo_jwt_token"));
+            }
+        });
+
+        $('#form-publication-produit').on('submit', function(e){
+            e.preventDefault();
+
+            var form = $(this);
+            var formData = new FormData(this);
+
+            $.ajax({
+                url : './produit/add',
+                type: 'POST',
+                data : formData,
+                dataType : 'json',
+                success : function (sData){
+                    if (sData.success){
+                        document.getElementById('form-publication-produit').reset();
+                        alert('Le produit a Ã©tÃ© publiÃ© avec succÃ¨s !');
+                    } else {
+                        alert(sData.message);
+                    }
+                },
+                beforeSend : function (xhr){
+                    xhr.setRequestHeader("Authorization", "Bearer " + localStorage.getItem("eo_jwt_token"));
+                },
+                processData : false,
+                contentType : false
+            });
+        });
+
+        $.ajax({
+           url : './produit/find',
+            type : 'GET',
+            data : {data : {idFournisseur:1}},
+            dataType : 'json',
+            success : function (sData) {
+
+            },
+            beforeSend : function (xhr) {
+                xhr.setRequestHeader("Authorization", "Bearer " + localStorage.getItem("eo_jwt_token"));
+            }
+        });
+
+    });
+</script>
+</html>
+Request: GET /easyorder/fournisseur/details [] 17-05-2018, 13h 41mn 15s ---> {"success":false,"message":"Wrong number of segments"}
+Request: GET /easyorder/produit/find?data%5BidFournisseur%5D=1 [data=Array] 17-05-2018, 13h 41mn 15s ---> {"success":false,"message":"Wrong number of segments"}
+Request: POST /easyorder/produit/add [titre=Ketchup trÃ¨s bon, description=Ceci est un ketchup, prix=2500, id_categorie=5] 17-05-2018, 13h 44mn 57s ---> {"success":false,"message":"Wrong number of segments"}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 17-05-2018, 13h 45mn 26s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0"}
+Request: GET /easyorder/fournisseur [] 17-05-2018, 13h 45mn 35s ---> <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Accueil Fournisseur</title>
+	<link rel="stylesheet" href="/easyorder/static/css/custom/style.css">
+	<link rel="stylesheet" href="/easyorder/static/css/assets/animate.css">
+	<script type="text/javascript" src="/easyorder/static/js/custom/functions.js"></script>
+	<script type="text/javascript" src="/easyorder/static/js/assets/jquery-3.2.1.js"></script>
+		</head>
+<body>
+	<div id="wrapper">
+		<br>
+<form action="/easyorder/fournisseur/publier" method="POST" enctype="multipart/form-data" id="form-publication-produit">
+    <h1>Publier un produit</h1>
+    <input type="text" name="titre" placeholder="Titre"><br>
+    <textarea name="description" placeholder="Description"></textarea><br>
+    <input type="number" name="prix" placeholder="Prix"><br>
+    <select name="id_categorie">
+                    <option value="1">Cosmï¿½tique</option>
+                    <option value="2">Electronique</option>
+                    <option value="3">Jardin</option>
+                    <option value="4">Prï¿½t ï¿½ porter</option>
+                    <option value="5">Alimentaire</option>
+                    <option value="6">Divers</option>
+            </select><br>
+    <input type="file" name="photo"><br>
+    <button type="submit">Publier produit</button>
+</form>
+	</div>
+	<div id="layer">
+			</div>
+</body>
+	<script type="text/javascript">
+    $(document).ready(function(){
+
+        $.ajax({
+           url : './fournisseur/details',
+           type : 'GET',
+           dataType : 'json',
+           success : function (sData){
+               $('#wrapper').prepend(JSON.stringify(sData));
+           },
+            beforeSend : function (xhr) {
+                xhr.setRequestHeader("Authorization", "Bearer " + localStorage.getItem("eo_jwt_token"));
+            }
+        });
+
+        $('#form-publication-produit').on('submit', function(e){
+            e.preventDefault();
+
+            var form = $(this);
+            var formData = new FormData(this);
+
+            $.ajax({
+                url : './produit/add',
+                type: 'POST',
+                data : formData,
+                dataType : 'json',
+                success : function (sData){
+                    if (sData.success){
+                        document.getElementById('form-publication-produit').reset();
+                        alert('Le produit a Ã©tÃ© publiÃ© avec succÃ¨s !');
+                    } else {
+                        alert(sData.message);
+                    }
+                },
+                beforeSend : function (xhr){
+                    xhr.setRequestHeader("Authorization", "Bearer " + localStorage.getItem("eo_jwt_token"));
+                },
+                processData : false,
+                contentType : false
+            });
+        });
+
+        $.ajax({
+           url : './produit/find',
+            type : 'GET',
+            data : {data : {idFournisseur:1}},
+            dataType : 'json',
+            success : function (sData) {
+
+            },
+            beforeSend : function (xhr) {
+                xhr.setRequestHeader("Authorization", "Bearer " + localStorage.getItem("eo_jwt_token"));
+            }
+        });
+
+    });
+</script>
+</html>
+Request: GET /easyorder/produit/find?data%5BidFournisseur%5D=1 [data=Array] 17-05-2018, 13h 45mn 37s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"}]}
+Request: GET /easyorder/fournisseur/details [] 17-05-2018, 13h 45mn 38s ---> {"success":true,"data":{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","telephone":"+221 77 814 03 52","nom_societe":"Xelcom Stuff","nom_image_profil":"YdIbhc5N1DbeFEflbPYu3gAudyOHaMRYSxr.png"}}
+Request: POST /easyorder/produit/add [titre=Ketchup, description=Un ketchup trÃ¨s bon, prix=2500, id_categorie=5] 17-05-2018, 13h 46mn 41s ---> {"success":true}
+Request: POST /easyorder/produit/add [titre=Gauffre, description=C'est excellent pour le gouter, prix=1800, id_categorie=5] 17-05-2018, 13h 47mn 12s ---> {"success":true}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 13h 47mn 29s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 13h 50mn 52s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 13h 53mn 01s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 13h 54mn 02s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 13h 56mn 43s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 13h 56mn 51s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 13h 57mn 05s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 13h 57mn 48s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 14h 03mn 45s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 14h 13mn 35s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"}]}
+Request: POST /easyorder/client/add [password_confirmation=131296, email=adja@gmail.com, coordGeo=SAMPLE DATA, password=131296, prenom=Fatou, nom=Gaye, telephone=+221771206817] 17-05-2018, 14h 14mn 32s ---> {"success":true}
+Request: POST /easyorder/rest/connexion [email=adja@gmail.com, password=131296] 17-05-2018, 14h 14mn 46s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMTIiLCJ0eXBlIjoiQ0xJRU5UIiwiZW1haWwiOiJhZGphQGdtYWlsLmNvbSJ9.KHLyjJBchldnKpZAvESpcaOtlK7qT_mdWGfQ-aDiPhE"}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 14h 14mn 47s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 14h 18mn 04s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"}]}
+Request: POST /easyorder/rest/connexion [email=adja@gmail.com, password=131296] 17-05-2018, 14h 18mn 28s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMTIiLCJ0eXBlIjoiQ0xJRU5UIiwiZW1haWwiOiJhZGphQGdtYWlsLmNvbSJ9.KHLyjJBchldnKpZAvESpcaOtlK7qT_mdWGfQ-aDiPhE"}
+Request: GET /easyorder/fournisseur/all [] 17-05-2018, 14h 22mn 37s ---> {"success":true,"data":[{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","telephone":"+221 77 814 03 52","nom_societe":"Xelcom Stuff","nom_image_profil":"YdIbhc5N1DbeFEflbPYu3gAudyOHaMRYSxr.png"},{"id_user":"4","email":"cvision@gmail.com","telephone":"+221 77 555 44 11","nom_societe":"Commerce Vision","nom_image_profil":"H4PlGSlKCnKidSt6HgwLNQlmIuVvbwIhqNH.png"},{"id_user":"5","email":"yoffbazar@gmail.com","telephone":"+221 77 555 06 87","nom_societe":"Yoff Bazar","nom_image_profil":"DUiTqF1eYwKc9q5xiR6reNqDjG7mnwMjNLv.png"}]}
+Request: POST /easyorder/rest/connexion [email=adja@gmail.com, password=131296] 17-05-2018, 14h 23mn 27s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMTIiLCJ0eXBlIjoiQ0xJRU5UIiwiZW1haWwiOiJhZGphQGdtYWlsLmNvbSJ9.KHLyjJBchldnKpZAvESpcaOtlK7qT_mdWGfQ-aDiPhE"}
+Request: GET /easyorder/fournisseur/all [] 17-05-2018, 14h 23mn 29s ---> {"success":true,"data":[{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","telephone":"+221 77 814 03 52","nom_societe":"Xelcom Stuff","nom_image_profil":"YdIbhc5N1DbeFEflbPYu3gAudyOHaMRYSxr.png"},{"id_user":"4","email":"cvision@gmail.com","telephone":"+221 77 555 44 11","nom_societe":"Commerce Vision","nom_image_profil":"H4PlGSlKCnKidSt6HgwLNQlmIuVvbwIhqNH.png"},{"id_user":"5","email":"yoffbazar@gmail.com","telephone":"+221 77 555 06 87","nom_societe":"Yoff Bazar","nom_image_profil":"DUiTqF1eYwKc9q5xiR6reNqDjG7mnwMjNLv.png"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=5] 17-05-2018, 14h 23mn 45s ---> {"success":true,"data":[{"id_produit":"5","titre":"T\u00e9l\u00e9phone","description":"Un t\u00e9l\u00e9phone historique","prix":"15000","nom_fichier":"KeMcrysdSzRdoJ4pQ1HwyTQMok5TGNv5ggJ.jpg","id_fournisseur":"5","id_categorie":"2"}]}
+Request: POST /easyorder/rest/connexion [email=adja@gmail.com, password=131296] 17-05-2018, 14h 24mn 23s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMTIiLCJ0eXBlIjoiQ0xJRU5UIiwiZW1haWwiOiJhZGphQGdtYWlsLmNvbSJ9.KHLyjJBchldnKpZAvESpcaOtlK7qT_mdWGfQ-aDiPhE"}
+Request: GET /easyorder/fournisseur/all [] 17-05-2018, 14h 24mn 34s ---> {"success":true,"data":[{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","telephone":"+221 77 814 03 52","nom_societe":"Xelcom Stuff","nom_image_profil":"YdIbhc5N1DbeFEflbPYu3gAudyOHaMRYSxr.png"},{"id_user":"4","email":"cvision@gmail.com","telephone":"+221 77 555 44 11","nom_societe":"Commerce Vision","nom_image_profil":"H4PlGSlKCnKidSt6HgwLNQlmIuVvbwIhqNH.png"},{"id_user":"5","email":"yoffbazar@gmail.com","telephone":"+221 77 555 06 87","nom_societe":"Yoff Bazar","nom_image_profil":"DUiTqF1eYwKc9q5xiR6reNqDjG7mnwMjNLv.png"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 14h 24mn 41s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"}]}
+Request: POST /easyorder/produit/add [titre=Gouverneur, description=Un gouverneur, prix=999999999, id_categorie=6] 17-05-2018, 14h 26mn 47s ---> {"success":true}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 14h 27mn 00s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"8","titre":"Gouverneur","description":"Un gouverneur","prix":"999999999","nom_fichier":"y4kB3iHJRcuuAx2kjwdeEQmFFKiBZXnvFFr.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=13129] 17-05-2018, 21h 16mn 16s ---> {"success":false}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 17-05-2018, 21h 16mn 19s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0"}
+Request: GET /easyorder/fournisseur/all [] 17-05-2018, 21h 16mn 27s ---> {"success":true,"data":[{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","telephone":"+221 77 814 03 52","nom_societe":"Xelcom Stuff","nom_image_profil":"YdIbhc5N1DbeFEflbPYu3gAudyOHaMRYSxr.png"},{"id_user":"4","email":"cvision@gmail.com","telephone":"+221 77 555 44 11","nom_societe":"Commerce Vision","nom_image_profil":"H4PlGSlKCnKidSt6HgwLNQlmIuVvbwIhqNH.png"},{"id_user":"5","email":"yoffbazar@gmail.com","telephone":"+221 77 555 06 87","nom_societe":"Yoff Bazar","nom_image_profil":"DUiTqF1eYwKc9q5xiR6reNqDjG7mnwMjNLv.png"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 21h 16mn 34s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"8","titre":"Gouverneur","description":"Un gouverneur","prix":"999999999","nom_fichier":"y4kB3iHJRcuuAx2kjwdeEQmFFKiBZXnvFFr.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 21h 17mn 39s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"8","titre":"Gouverneur","description":"Un gouverneur","prix":"999999999","nom_fichier":"y4kB3iHJRcuuAx2kjwdeEQmFFKiBZXnvFFr.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 21h 31mn 34s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"8","titre":"Gouverneur","description":"Un gouverneur","prix":"999999999","nom_fichier":"y4kB3iHJRcuuAx2kjwdeEQmFFKiBZXnvFFr.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 17-05-2018, 21h 33mn 15s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"8","titre":"Gouverneur","description":"Un gouverneur","prix":"999999999","nom_fichier":"y4kB3iHJRcuuAx2kjwdeEQmFFKiBZXnvFFr.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 18-05-2018, 09h 34mn 58s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"8","titre":"Gouverneur","description":"Un gouverneur","prix":"999999999","nom_fichier":"y4kB3iHJRcuuAx2kjwdeEQmFFKiBZXnvFFr.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 18-05-2018, 09h 35mn 38s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"8","titre":"Gouverneur","description":"Un gouverneur","prix":"999999999","nom_fichier":"y4kB3iHJRcuuAx2kjwdeEQmFFKiBZXnvFFr.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 18-05-2018, 09h 56mn 15s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"8","titre":"Gouverneur","description":"Un gouverneur","prix":"999999999","nom_fichier":"y4kB3iHJRcuuAx2kjwdeEQmFFKiBZXnvFFr.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 10h 08mn 30s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0"}
+Request: GET /easyorder/fournisseur/all [] 18-05-2018, 10h 08mn 36s ---> {"success":true,"data":[{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","telephone":"+221 77 814 03 52","nom_societe":"Xelcom Stuff","nom_image_profil":"YdIbhc5N1DbeFEflbPYu3gAudyOHaMRYSxr.png"},{"id_user":"4","email":"cvision@gmail.com","telephone":"+221 77 555 44 11","nom_societe":"Commerce Vision","nom_image_profil":"H4PlGSlKCnKidSt6HgwLNQlmIuVvbwIhqNH.png"},{"id_user":"5","email":"yoffbazar@gmail.com","telephone":"+221 77 555 06 87","nom_societe":"Yoff Bazar","nom_image_profil":"DUiTqF1eYwKc9q5xiR6reNqDjG7mnwMjNLv.png"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 18-05-2018, 10h 08mn 39s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"8","titre":"Gouverneur","description":"Un gouverneur","prix":"999999999","nom_fichier":"y4kB3iHJRcuuAx2kjwdeEQmFFKiBZXnvFFr.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 10h 15mn 57s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0"}
+Request: GET /easyorder/fournisseur/all [] 18-05-2018, 10h 15mn 59s ---> {"success":true,"data":[{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","telephone":"+221 77 814 03 52","nom_societe":"Xelcom Stuff","nom_image_profil":"YdIbhc5N1DbeFEflbPYu3gAudyOHaMRYSxr.png"},{"id_user":"4","email":"cvision@gmail.com","telephone":"+221 77 555 44 11","nom_societe":"Commerce Vision","nom_image_profil":"H4PlGSlKCnKidSt6HgwLNQlmIuVvbwIhqNH.png"},{"id_user":"5","email":"yoffbazar@gmail.com","telephone":"+221 77 555 06 87","nom_societe":"Yoff Bazar","nom_image_profil":"DUiTqF1eYwKc9q5xiR6reNqDjG7mnwMjNLv.png"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 18-05-2018, 10h 16mn 01s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00e8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00e9 depuis la maison m\u00e8re de Google et envoy\u00e9 \u00e0 moi m\u00eame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00e8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"8","titre":"Gouverneur","description":"Un gouverneur","prix":"999999999","nom_fichier":"y4kB3iHJRcuuAx2kjwdeEQmFFKiBZXnvFFr.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 13h 37mn 33s ---> 
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 13h 37mn 40s ---> 
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 14h 31mn 50s ---> 
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 14h 32mn 05s ---> 
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 14h 32mn 33s ---> 
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 14h 32mn 38s ---> 
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 14h 33mn 27s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0"}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 14h 34mn 36s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0"}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 14h 35mn 23s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0","user":{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","password":"3e96addf578dbae9905a83132d3f208078a8cb68","date_inscription":"2018-05-11 13:26:18","type":"FOURNISSEUR","telephone":"+221 77 814 03 52","solde":"0"}}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 14h 36mn 37s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0","user":{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","password":"3e96addf578dbae9905a83132d3f208078a8cb68","date_inscription":"2018-05-11 13:26:18","type":"FOURNISSEUR","telephone":"+221 77 814 03 52","solde":"0"}}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 14h 37mn 07s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0","user":{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","password":"3e96addf578dbae9905a83132d3f208078a8cb68","date_inscription":"2018-05-11 13:26:18","type":"FOURNISSEUR","telephone":"+221 77 814 03 52","solde":"0"}}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 14h 37mn 50s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0","user":{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","password":"3e96addf578dbae9905a83132d3f208078a8cb68","date_inscription":"2018-05-11 13:26:18","type":"FOURNISSEUR","telephone":"+221 77 814 03 52","solde":"0"}}
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 40mn 12s ---> 
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 41mn 41s ---> 
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 42mn 01s ---> 
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 42mn 04s ---> 
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 42mn 16s ---> lol
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 43mn 02s ---> 
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 44mn 02s ---> <pre class='xdebug-var-dump' dir='ltr'>
+<small>C:\wamp64\www\easyorder\src\rest\actions.php:48:</small>
+<b>array</b> <i>(size=6)</i>
+  0 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cosmétique'</font> <i>(length=10)</i>
+  1 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'2'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Electronique'</font> <i>(length=12)</i>
+  2 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'3'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Jardin'</font> <i>(length=6)</i>
+  3 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'4'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Prêt à porter'</font> <i>(length=13)</i>
+  4 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'5'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Alimentaire'</font> <i>(length=11)</i>
+  5 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'6'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Divers'</font> <i>(length=6)</i>
+</pre>
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 45mn 06s ---> <pre class='xdebug-var-dump' dir='ltr'>
+<small>C:\wamp64\www\easyorder\src\rest\actions.php:49:</small>
+<b>array</b> <i>(size=6)</i>
+  0 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cosmétique'</font> <i>(length=10)</i>
+  1 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'2'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Electronique'</font> <i>(length=12)</i>
+  2 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'3'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Jardin'</font> <i>(length=6)</i>
+  3 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'4'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Prêt à porter'</font> <i>(length=13)</i>
+  4 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'5'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Alimentaire'</font> <i>(length=11)</i>
+  5 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'6'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Divers'</font> <i>(length=6)</i>
+</pre>
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 46mn 12s ---> <pre class='xdebug-var-dump' dir='ltr'>
+<small>C:\wamp64\www\easyorder\src\rest\actions.php:49:</small>
+<b>array</b> <i>(size=6)</i>
+  0 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cosmétique'</font> <i>(length=10)</i>
+  1 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'2'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Electronique'</font> <i>(length=12)</i>
+  2 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'3'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Jardin'</font> <i>(length=6)</i>
+  3 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'4'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Prêt à porter'</font> <i>(length=13)</i>
+  4 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'5'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Alimentaire'</font> <i>(length=11)</i>
+  5 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'6'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Divers'</font> <i>(length=6)</i>
+</pre>
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 46mn 31s ---> {"sa":2}
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 47mn 00s ---> 
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 47mn 14s ---> <pre class='xdebug-var-dump' dir='ltr'>
+<small>C:\wamp64\www\easyorder\src\rest\actions.php:48:</small>
+<b>array</b> <i>(size=6)</i>
+  0 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cosmétique'</font> <i>(length=10)</i>
+  1 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'2'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Electronique'</font> <i>(length=12)</i>
+  2 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'3'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Jardin'</font> <i>(length=6)</i>
+  3 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'4'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Prêt à porter'</font> <i>(length=13)</i>
+  4 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'5'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Alimentaire'</font> <i>(length=11)</i>
+  5 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'6'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Divers'</font> <i>(length=6)</i>
+</pre>
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 47mn 39s ---> <pre class='xdebug-var-dump' dir='ltr'>
+<small>C:\wamp64\www\easyorder\src\rest\actions.php:48:</small><small>boolean</small> <font color='#75507b'>false</font>
+</pre>
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 47mn 48s ---> <pre class='xdebug-var-dump' dir='ltr'>
+<small>C:\wamp64\www\easyorder\src\rest\actions.php:48:</small>
+<b>array</b> <i>(size=6)</i>
+  0 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cosmétique'</font> <i>(length=10)</i>
+  1 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'2'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Electronique'</font> <i>(length=12)</i>
+  2 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'3'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Jardin'</font> <i>(length=6)</i>
+  3 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'4'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Prêt à porter'</font> <i>(length=13)</i>
+  4 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'5'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Alimentaire'</font> <i>(length=11)</i>
+  5 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'6'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Divers'</font> <i>(length=6)</i>
+</pre>
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 48mn 18s ---> <pre class='xdebug-var-dump' dir='ltr'>
+<small>C:\wamp64\www\easyorder\src\rest\actions.php:48:</small><small>boolean</small> <font color='#75507b'>false</font>
+</pre>
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 48mn 59s ---> <pre class='xdebug-var-dump' dir='ltr'>
+<small>C:\wamp64\www\easyorder\src\rest\actions.php:48:</small><small>boolean</small> <font color='#75507b'>false</font>
+</pre><pre class='xdebug-var-dump' dir='ltr'>
+<small>C:\wamp64\www\easyorder\src\rest\actions.php:49:</small>
+<b>array</b> <i>(size=6)</i>
+  0 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cosmétique'</font> <i>(length=10)</i>
+  1 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'2'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Electronique'</font> <i>(length=12)</i>
+  2 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'3'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Jardin'</font> <i>(length=6)</i>
+  3 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'4'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Prêt à porter'</font> <i>(length=13)</i>
+  4 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'5'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Alimentaire'</font> <i>(length=11)</i>
+  5 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'6'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Divers'</font> <i>(length=6)</i>
+</pre>
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 50mn 24s ---> <pre class='xdebug-var-dump' dir='ltr'>
+<small>C:\wamp64\www\easyorder\src\rest\actions.php:48:</small><small>boolean</small> <font color='#75507b'>false</font>
+</pre><pre class='xdebug-var-dump' dir='ltr'>
+<small>C:\wamp64\www\easyorder\src\rest\actions.php:49:</small>
+<b>array</b> <i>(size=6)</i>
+  0 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Cosmétique'</font> <i>(length=10)</i>
+  1 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'2'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Electronique'</font> <i>(length=12)</i>
+  2 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'3'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Jardin'</font> <i>(length=6)</i>
+  3 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'4'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Prêt à porter'</font> <i>(length=13)</i>
+  4 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'5'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Alimentaire'</font> <i>(length=11)</i>
+  5 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'6'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Divers'</font> <i>(length=6)</i>
+</pre>
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 53mn 09s ---> <pre class='xdebug-var-dump' dir='ltr'>
+<small>C:\wamp64\www\easyorder\src\rest\actions.php:48:</small><small>string</small> <font color='#cc0000'>'[{&quot;id_categorie&quot;:&quot;1&quot;,&quot;nom_categorie&quot;:&quot;Cosm\u00e9tique&quot;},{&quot;id_categorie&quot;:&quot;2&quot;,&quot;nom_categorie&quot;:&quot;Electronique&quot;},{&quot;id_categorie&quot;:&quot;3&quot;,&quot;nom_categorie&quot;:&quot;Jardin&quot;},{&quot;id_categorie&quot;:&quot;4&quot;,&quot;nom_categorie&quot;:&quot;Pr\u00eat \u00e0 porter&quot;},{&quot;id_categorie&quot;:&quot;5&quot;,&quot;nom_categorie&quot;:&quot;Alimentaire&quot;},{&quot;id_categorie&quot;:&quot;6&quot;,&quot;nom_categorie&quot;:&quot;Divers&quot;}]'</font> <i>(length=314)</i>
+</pre><pre class='xdebug-var-dump' dir='ltr'>
+<small>C:\wamp64\www\easyorder\src\rest\actions.php:49:</small>
+<b>array</b> <i>(size=6)</i>
+  0 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'CosmÃ©tique'</font> <i>(length=11)</i>
+  1 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'2'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Electronique'</font> <i>(length=12)</i>
+  2 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'3'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Jardin'</font> <i>(length=6)</i>
+  3 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'4'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PrÃªt Ã  porter'</font> <i>(length=15)</i>
+  4 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'5'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Alimentaire'</font> <i>(length=11)</i>
+  5 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'id_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'6'</font> <i>(length=1)</i>
+      'nom_categorie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Divers'</font> <i>(length=6)</i>
+</pre>[{"id_categorie":"1","nom_categorie":"Cosm\u00e9tique"},{"id_categorie":"2","nom_categorie":"Electronique"},{"id_categorie":"3","nom_categorie":"Jardin"},{"id_categorie":"4","nom_categorie":"Pr\u00eat \u00e0 porter"},{"id_categorie":"5","nom_categorie":"Alimentaire"},{"id_categorie":"6","nom_categorie":"Divers"}]
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 53mn 38s ---> {}
+Request: GET /easyorder/rest/categorie/getAll [] 18-05-2018, 14h 53mn 46s ---> [{"id_categorie":"1","nom_categorie":"Cosm\u00e9tique"},{"id_categorie":"2","nom_categorie":"Electronique"},{"id_categorie":"3","nom_categorie":"Jardin"},{"id_categorie":"4","nom_categorie":"Pr\u00eat \u00e0 porter"},{"id_categorie":"5","nom_categorie":"Alimentaire"},{"id_categorie":"6","nom_categorie":"Divers"}]
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 14h 55mn 27s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0","user":{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","password":"3e96addf578dbae9905a83132d3f208078a8cb68","date_inscription":"2018-05-11 13:26:18","type":"FOURNISSEUR","telephone":"+221 77 814 03 52","solde":"0"},"categories":[{"id_categorie":"1","nom_categorie":"Cosm\u00e9tique"},{"id_categorie":"2","nom_categorie":"Electronique"},{"id_categorie":"3","nom_categorie":"Jardin"},{"id_categorie":"4","nom_categorie":"Pr\u00eat \u00e0 porter"},{"id_categorie":"5","nom_categorie":"Alimentaire"},{"id_categorie":"6","nom_categorie":"Divers"}]}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 14h 58mn 50s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0","user":{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","password":"3e96addf578dbae9905a83132d3f208078a8cb68","date_inscription":"2018-05-11 13:26:18","type":"FOURNISSEUR","telephone":"+221 77 814 03 52","solde":"0"},"categories":[{"id_categorie":"1","nom_categorie":"Cosm\u00e9tique"},{"id_categorie":"2","nom_categorie":"Electronique"},{"id_categorie":"3","nom_categorie":"Jardin"},{"id_categorie":"4","nom_categorie":"Pr\u00eat \u00e0 porter"},{"id_categorie":"5","nom_categorie":"Alimentaire"},{"id_categorie":"6","nom_categorie":"Divers"}]}
+Request: POST /easyorder/client/add [password_confirmation=TafsirNiang, email=tafsireal@gmail.com, coordGeo=SAMPLE DATA, password=TafsirNiang, prenom=Tafsir, nom=Niang, telephone=779879384] 18-05-2018, 15h 22mn 50s ---> {"success":true}
+Request: POST /easyorder/rest/connexion [email=tafsireal@gmail.com, password=TafsirNiang] 18-05-2018, 15h 23mn 14s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMTMiLCJ0eXBlIjoiQ0xJRU5UIiwiZW1haWwiOiJ0YWZzaXJlYWxAZ21haWwuY29tIn0.PjsyK2R-j-Fq_T1dh9iRrLoPl6de3cFNM0T4eeW1Lu4","user":{"id_user":"13","email":"tafsireal@gmail.com","password":"014982090b2acd33d3674a5a362b21cd510e45ca","date_inscription":"2018-05-18 15:22:46","type":"CLIENT","telephone":"779879384","solde":"0"},"categories":[{"id_categorie":"1","nom_categorie":"Cosm\u00e9tique"},{"id_categorie":"2","nom_categorie":"Electronique"},{"id_categorie":"3","nom_categorie":"Jardin"},{"id_categorie":"4","nom_categorie":"Pr\u00eat \u00e0 porter"},{"id_categorie":"5","nom_categorie":"Alimentaire"},{"id_categorie":"6","nom_categorie":"Divers"}]}
+Request: GET /easyorder/fournisseur/all [] 18-05-2018, 15h 23mn 19s ---> {"success":true,"data":[{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","telephone":"+221 77 814 03 52","nom_societe":"Xelcom Stuff","nom_image_profil":"YdIbhc5N1DbeFEflbPYu3gAudyOHaMRYSxr.png"},{"id_user":"4","email":"cvision@gmail.com","telephone":"+221 77 555 44 11","nom_societe":"Commerce Vision","nom_image_profil":"H4PlGSlKCnKidSt6HgwLNQlmIuVvbwIhqNH.png"},{"id_user":"5","email":"yoffbazar@gmail.com","telephone":"+221 77 555 06 87","nom_societe":"Yoff Bazar","nom_image_profil":"DUiTqF1eYwKc9q5xiR6reNqDjG7mnwMjNLv.png"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 18-05-2018, 15h 23mn 33s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00c3\u00a8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00c3\u00a9 depuis la maison m\u00c3\u00a8re de Google et envoy\u00c3\u00a9 \u00c3\u00a0 moi m\u00c3\u00aame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00c3\u00a8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"8","titre":"Gouverneur","description":"Un gouverneur","prix":"999999999","nom_fichier":"y4kB3iHJRcuuAx2kjwdeEQmFFKiBZXnvFFr.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 15h 36mn 06s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0","user":{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","password":"3e96addf578dbae9905a83132d3f208078a8cb68","date_inscription":"2018-05-11 13:26:18","type":"FOURNISSEUR","telephone":"+221 77 814 03 52","solde":"0"},"categories":[{"id_categorie":"1","nom_categorie":"Cosm\u00e9tique"},{"id_categorie":"2","nom_categorie":"Electronique"},{"id_categorie":"3","nom_categorie":"Jardin"},{"id_categorie":"4","nom_categorie":"Pr\u00eat \u00e0 porter"},{"id_categorie":"5","nom_categorie":"Alimentaire"},{"id_categorie":"6","nom_categorie":"Divers"}]}
+Request: GET /easyorder/fournisseur/all [] 18-05-2018, 15h 38mn 50s ---> {"success":true,"data":[{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","telephone":"+221 77 814 03 52","nom_societe":"Xelcom Stuff","nom_image_profil":"YdIbhc5N1DbeFEflbPYu3gAudyOHaMRYSxr.png"},{"id_user":"4","email":"cvision@gmail.com","telephone":"+221 77 555 44 11","nom_societe":"Commerce Vision","nom_image_profil":"H4PlGSlKCnKidSt6HgwLNQlmIuVvbwIhqNH.png"},{"id_user":"5","email":"yoffbazar@gmail.com","telephone":"+221 77 555 06 87","nom_societe":"Yoff Bazar","nom_image_profil":"DUiTqF1eYwKc9q5xiR6reNqDjG7mnwMjNLv.png"}]}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 20h 32mn 47s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0","user":{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","password":"3e96addf578dbae9905a83132d3f208078a8cb68","date_inscription":"2018-05-11 13:26:18","type":"FOURNISSEUR","telephone":"+221 77 814 03 52","solde":"0"},"categories":[{"id_categorie":"1","nom_categorie":"Cosm\u00e9tique"},{"id_categorie":"2","nom_categorie":"Electronique"},{"id_categorie":"3","nom_categorie":"Jardin"},{"id_categorie":"4","nom_categorie":"Pr\u00eat \u00e0 porter"},{"id_categorie":"5","nom_categorie":"Alimentaire"},{"id_categorie":"6","nom_categorie":"Divers"}]}
+Request: GET /easyorder/fournisseur/all [] 18-05-2018, 20h 32mn 56s ---> {"success":true,"data":[{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","telephone":"+221 77 814 03 52","nom_societe":"Xelcom Stuff","nom_image_profil":"YdIbhc5N1DbeFEflbPYu3gAudyOHaMRYSxr.png"},{"id_user":"4","email":"cvision@gmail.com","telephone":"+221 77 555 44 11","nom_societe":"Commerce Vision","nom_image_profil":"H4PlGSlKCnKidSt6HgwLNQlmIuVvbwIhqNH.png"},{"id_user":"5","email":"yoffbazar@gmail.com","telephone":"+221 77 555 06 87","nom_societe":"Yoff Bazar","nom_image_profil":"DUiTqF1eYwKc9q5xiR6reNqDjG7mnwMjNLv.png"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 18-05-2018, 20h 41mn 20s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00c3\u00a8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00c3\u00a9 depuis la maison m\u00c3\u00a8re de Google et envoy\u00c3\u00a9 \u00c3\u00a0 moi m\u00c3\u00aame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00c3\u00a8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"8","titre":"Gouverneur","description":"Un gouverneur","prix":"999999999","nom_fichier":"y4kB3iHJRcuuAx2kjwdeEQmFFKiBZXnvFFr.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 20h 43mn 17s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0","user":{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","password":"3e96addf578dbae9905a83132d3f208078a8cb68","date_inscription":"2018-05-11 13:26:18","type":"FOURNISSEUR","telephone":"+221 77 814 03 52","solde":"0"},"categories":[{"id_categorie":"1","nom_categorie":"Cosm\u00e9tique"},{"id_categorie":"2","nom_categorie":"Electronique"},{"id_categorie":"3","nom_categorie":"Jardin"},{"id_categorie":"4","nom_categorie":"Pr\u00eat \u00e0 porter"},{"id_categorie":"5","nom_categorie":"Alimentaire"},{"id_categorie":"6","nom_categorie":"Divers"}]}
+Request: GET /easyorder/fournisseur/all [] 18-05-2018, 20h 43mn 22s ---> {"success":true,"data":[{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","telephone":"+221 77 814 03 52","nom_societe":"Xelcom Stuff","nom_image_profil":"YdIbhc5N1DbeFEflbPYu3gAudyOHaMRYSxr.png"},{"id_user":"4","email":"cvision@gmail.com","telephone":"+221 77 555 44 11","nom_societe":"Commerce Vision","nom_image_profil":"H4PlGSlKCnKidSt6HgwLNQlmIuVvbwIhqNH.png"},{"id_user":"5","email":"yoffbazar@gmail.com","telephone":"+221 77 555 06 87","nom_societe":"Yoff Bazar","nom_image_profil":"DUiTqF1eYwKc9q5xiR6reNqDjG7mnwMjNLv.png"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3] 18-05-2018, 20h 43mn 23s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00c3\u00a8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00c3\u00a9 depuis la maison m\u00c3\u00a8re de Google et envoy\u00c3\u00a9 \u00c3\u00a0 moi m\u00c3\u00aame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00c3\u00a8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"8","titre":"Gouverneur","description":"Un gouverneur","prix":"999999999","nom_fichier":"y4kB3iHJRcuuAx2kjwdeEQmFFKiBZXnvFFr.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 23h 10mn 54s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0","user":{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","password":"3e96addf578dbae9905a83132d3f208078a8cb68","date_inscription":"2018-05-11 13:26:18","type":"FOURNISSEUR","telephone":"+221 77 814 03 52","solde":"0"},"categories":[{"id_categorie":"1","nom_categorie":"Cosm\u00e9tique"},{"id_categorie":"2","nom_categorie":"Electronique"},{"id_categorie":"3","nom_categorie":"Jardin"},{"id_categorie":"4","nom_categorie":"Pr\u00eat \u00e0 porter"},{"id_categorie":"5","nom_categorie":"Alimentaire"},{"id_categorie":"6","nom_categorie":"Divers"}]}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 23h 12mn 13s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0","user":{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","password":"3e96addf578dbae9905a83132d3f208078a8cb68","date_inscription":"2018-05-11 13:26:18","type":"FOURNISSEUR","telephone":"+221 77 814 03 52","solde":"0"},"categories":[{"id_categorie":"1","nom_categorie":"Cosm\u00e9tique"},{"id_categorie":"2","nom_categorie":"Electronique"},{"id_categorie":"3","nom_categorie":"Jardin"},{"id_categorie":"4","nom_categorie":"Pr\u00eat \u00e0 porter"},{"id_categorie":"5","nom_categorie":"Alimentaire"},{"id_categorie":"6","nom_categorie":"Divers"}]}
+Request: GET /easyorder/fournisseur/all [] 18-05-2018, 23h 12mn 54s ---> {"success":true,"data":[{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","telephone":"+221 77 814 03 52","nom_societe":"Xelcom Stuff","nom_image_profil":"YdIbhc5N1DbeFEflbPYu3gAudyOHaMRYSxr.png"},{"id_user":"4","email":"cvision@gmail.com","telephone":"+221 77 555 44 11","nom_societe":"Commerce Vision","nom_image_profil":"H4PlGSlKCnKidSt6HgwLNQlmIuVvbwIhqNH.png"},{"id_user":"5","email":"yoffbazar@gmail.com","telephone":"+221 77 555 06 87","nom_societe":"Yoff Bazar","nom_image_profil":"DUiTqF1eYwKc9q5xiR6reNqDjG7mnwMjNLv.png"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3, idUser=3] 18-05-2018, 23h 14mn 57s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00c3\u00a8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00c3\u00a9 depuis la maison m\u00c3\u00a8re de Google et envoy\u00c3\u00a9 \u00c3\u00a0 moi m\u00c3\u00aame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00c3\u00a8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"8","titre":"Gouverneur","description":"Un gouverneur","prix":"999999999","nom_fichier":"y4kB3iHJRcuuAx2kjwdeEQmFFKiBZXnvFFr.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: POST /easyorder/produit/getUpdates [idUser=3] 18-05-2018, 23h 26mn 39s ---> 
+Request: POST /easyorder/produit/getUpdates [idUser=3] 18-05-2018, 23h 27mn 08s ---> {"success":true,"data":[]}
+Request: GET /easyorder/fournisseur [] 18-05-2018, 23h 28mn 50s ---> <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Accueil Fournisseur</title>
+	<link rel="stylesheet" href="/easyorder/static/css/custom/style.css">
+	<link rel="stylesheet" href="/easyorder/static/css/assets/animate.css">
+	<script type="text/javascript" src="/easyorder/static/js/custom/functions.js"></script>
+	<script type="text/javascript" src="/easyorder/static/js/assets/jquery-3.2.1.js"></script>
+		</head>
+<body>
+	<div id="wrapper">
+		<br>
+<form action="/easyorder/fournisseur/publier" method="POST" enctype="multipart/form-data" id="form-publication-produit">
+    <h1>Publier un produit</h1>
+    <input type="text" name="titre" placeholder="Titre"><br>
+    <textarea name="description" placeholder="Description"></textarea><br>
+    <input type="number" name="prix" placeholder="Prix"><br>
+    <select name="id_categorie">
+                    <option value="1">CosmÃ©tique</option>
+                    <option value="2">Electronique</option>
+                    <option value="3">Jardin</option>
+                    <option value="4">PrÃªt Ã  porter</option>
+                    <option value="5">Alimentaire</option>
+                    <option value="6">Divers</option>
+            </select><br>
+    <input type="file" name="photo"><br>
+    <button type="submit">Publier produit</button>
+</form>
+	</div>
+	<div id="layer">
+			</div>
+</body>
+	<script type="text/javascript">
+    $(document).ready(function(){
+
+        $.ajax({
+           url : './fournisseur/details',
+           type : 'GET',
+           dataType : 'json',
+           success : function (sData){
+               $('#wrapper').prepend(JSON.stringify(sData));
+           },
+            beforeSend : function (xhr) {
+                xhr.setRequestHeader("Authorization", "Bearer " + localStorage.getItem("eo_jwt_token"));
+            }
+        });
+
+        $('#form-publication-produit').on('submit', function(e){
+            e.preventDefault();
+
+            var form = $(this);
+            var formData = new FormData(this);
+
+            $.ajax({
+                url : './produit/add',
+                type: 'POST',
+                data : formData,
+                dataType : 'json',
+                success : function (sData){
+                    if (sData.success){
+                        document.getElementById('form-publication-produit').reset();
+                        alert('Le produit a Ã©tÃ© publiÃ© avec succÃ¨s !');
+                    } else {
+                        alert(sData.message);
+                    }
+                },
+                beforeSend : function (xhr){
+                    xhr.setRequestHeader("Authorization", "Bearer " + localStorage.getItem("eo_jwt_token"));
+                },
+                processData : false,
+                contentType : false
+            });
+        });
+
+        $.ajax({
+           url : './produit/find',
+            type : 'GET',
+            data : {data : {idFournisseur:1}},
+            dataType : 'json',
+            success : function (sData) {
+
+            },
+            beforeSend : function (xhr) {
+                xhr.setRequestHeader("Authorization", "Bearer " + localStorage.getItem("eo_jwt_token"));
+            }
+        });
+
+    });
+</script>
+</html>
+Request: GET /easyorder/fournisseur/details [] 18-05-2018, 23h 28mn 52s ---> {"success":true,"data":{"id_user":"5","email":"yoffbazar@gmail.com","telephone":"+221 77 555 06 87","nom_societe":"Yoff Bazar","nom_image_profil":"DUiTqF1eYwKc9q5xiR6reNqDjG7mnwMjNLv.png"}}
+Request: GET /easyorder/produit/find?data%5BidFournisseur%5D=1 [data=Array] 18-05-2018, 23h 28mn 53s ---> {"success":true,"data":[{"id_produit":"5","titre":"T\u00c3\u00a9l\u00c3\u00a9phone","description":"Un t\u00c3\u00a9l\u00c3\u00a9phone historique","prix":"15000","nom_fichier":"KeMcrysdSzRdoJ4pQ1HwyTQMok5TGNv5ggJ.jpg","id_fournisseur":"5","id_categorie":"2"}]}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 18-05-2018, 23h 29mn 22s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0","user":{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","password":"3e96addf578dbae9905a83132d3f208078a8cb68","date_inscription":"2018-05-11 13:26:18","type":"FOURNISSEUR","telephone":"+221 77 814 03 52","solde":"0"},"categories":[{"id_categorie":"1","nom_categorie":"Cosm\u00e9tique"},{"id_categorie":"2","nom_categorie":"Electronique"},{"id_categorie":"3","nom_categorie":"Jardin"},{"id_categorie":"4","nom_categorie":"Pr\u00eat \u00e0 porter"},{"id_categorie":"5","nom_categorie":"Alimentaire"},{"id_categorie":"6","nom_categorie":"Divers"}]}
+Request: GET /easyorder/fournisseur [] 18-05-2018, 23h 29mn 25s ---> <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Accueil Fournisseur</title>
+	<link rel="stylesheet" href="/easyorder/static/css/custom/style.css">
+	<link rel="stylesheet" href="/easyorder/static/css/assets/animate.css">
+	<script type="text/javascript" src="/easyorder/static/js/custom/functions.js"></script>
+	<script type="text/javascript" src="/easyorder/static/js/assets/jquery-3.2.1.js"></script>
+		</head>
+<body>
+	<div id="wrapper">
+		<br>
+<form action="/easyorder/fournisseur/publier" method="POST" enctype="multipart/form-data" id="form-publication-produit">
+    <h1>Publier un produit</h1>
+    <input type="text" name="titre" placeholder="Titre"><br>
+    <textarea name="description" placeholder="Description"></textarea><br>
+    <input type="number" name="prix" placeholder="Prix"><br>
+    <select name="id_categorie">
+                    <option value="1">CosmÃ©tique</option>
+                    <option value="2">Electronique</option>
+                    <option value="3">Jardin</option>
+                    <option value="4">PrÃªt Ã  porter</option>
+                    <option value="5">Alimentaire</option>
+                    <option value="6">Divers</option>
+            </select><br>
+    <input type="file" name="photo"><br>
+    <button type="submit">Publier produit</button>
+</form>
+	</div>
+	<div id="layer">
+			</div>
+</body>
+	<script type="text/javascript">
+    $(document).ready(function(){
+
+        $.ajax({
+           url : './fournisseur/details',
+           type : 'GET',
+           dataType : 'json',
+           success : function (sData){
+               $('#wrapper').prepend(JSON.stringify(sData));
+           },
+            beforeSend : function (xhr) {
+                xhr.setRequestHeader("Authorization", "Bearer " + localStorage.getItem("eo_jwt_token"));
+            }
+        });
+
+        $('#form-publication-produit').on('submit', function(e){
+            e.preventDefault();
+
+            var form = $(this);
+            var formData = new FormData(this);
+
+            $.ajax({
+                url : './produit/add',
+                type: 'POST',
+                data : formData,
+                dataType : 'json',
+                success : function (sData){
+                    if (sData.success){
+                        document.getElementById('form-publication-produit').reset();
+                        alert('Le produit a Ã©tÃ© publiÃ© avec succÃ¨s !');
+                    } else {
+                        alert(sData.message);
+                    }
+                },
+                beforeSend : function (xhr){
+                    xhr.setRequestHeader("Authorization", "Bearer " + localStorage.getItem("eo_jwt_token"));
+                },
+                processData : false,
+                contentType : false
+            });
+        });
+
+        $.ajax({
+           url : './produit/find',
+            type : 'GET',
+            data : {data : {idFournisseur:1}},
+            dataType : 'json',
+            success : function (sData) {
+
+            },
+            beforeSend : function (xhr) {
+                xhr.setRequestHeader("Authorization", "Bearer " + localStorage.getItem("eo_jwt_token"));
+            }
+        });
+
+    });
+</script>
+</html>
+Request: GET /easyorder/produit/find?data%5BidFournisseur%5D=1 [data=Array] 18-05-2018, 23h 29mn 26s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00c3\u00a8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00c3\u00a9 depuis la maison m\u00c3\u00a8re de Google et envoy\u00c3\u00a9 \u00c3\u00a0 moi m\u00c3\u00aame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00c3\u00a8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"8","titre":"Gouverneur","description":"Un gouverneur","prix":"999999999","nom_fichier":"y4kB3iHJRcuuAx2kjwdeEQmFFKiBZXnvFFr.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: GET /easyorder/fournisseur/details [] 18-05-2018, 23h 29mn 26s ---> {"success":true,"data":{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","telephone":"+221 77 814 03 52","nom_societe":"Xelcom Stuff","nom_image_profil":"YdIbhc5N1DbeFEflbPYu3gAudyOHaMRYSxr.png"}}
+Request: POST /easyorder/produit/add [titre=Harry potter Flyer, description=Ceci est un produit de test , prix=12000, id_categorie=6] 18-05-2018, 23h 30mn 56s ---> {"success":true}
+Request: POST /easyorder/produit/getUpdates [idUser=3] 18-05-2018, 23h 34mn 00s ---> {"success":true,"data":[]}
+Request: POST /easyorder/produit/add [titre=Test de produit, description=Ceci est un test, prix=25000, id_categorie=6] 18-05-2018, 23h 44mn 42s ---> {"success":true}
+Request: POST /easyorder/produit/getUpdates [idUser=3] 18-05-2018, 23h 45mn 46s ---> {"success":true,"data":[]}
+Request: POST /easyorder/produit/getUpdates [idUser=3] 18-05-2018, 23h 47mn 26s ---> {"success":true,"data":[{"id_produit":"12","titre":"Test de produit","description":"Ceci est un test","prix":"25000","nom_fichier":"X6zi8EvGSru7vWBPS9rvku6oIXacm1K88Eq.jpg","id_fournisseur":"3","id_categorie":"6","nom_societe":"Xelcom Stuff","nom_image_profil":"YdIbhc5N1DbeFEflbPYu3gAudyOHaMRYSxr.png","id_client":"3"}]}
+Request: POST /easyorder/produit/getUpdates [idUser=3] 18-05-2018, 23h 48mn 10s ---> {"success":true,"data":[]}
+Request: POST /easyorder/produit/add [titre=aaaa, description=Ceci esr un tes, prix=2500, id_categorie=6] 18-05-2018, 23h 49mn 01s ---> {"success":true}
+Request: POST /easyorder/produit/getUpdates [idUser=3] 18-05-2018, 23h 49mn 09s ---> {"success":true,"data":[{"id_produit":"13","titre":"aaaa","description":"Ceci esr un tes","prix":"2500","nom_fichier":"WmjhOTXWu45taJDuAe54XpqOZC6NVG5EsXQ.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: POST /easyorder/produit/getUpdates [idFournisseur=3, idUser=3] 19-05-2018, 00h 00mn 06s ---> {"success":true,"message":"No message from the server","data":[]}
+Request: POST /easyorder/rest/connexion [email=ibrahima.ndiaye450@gmail.com, password=131296] 19-05-2018, 00h 01mn 33s ---> {"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsInR5cGUiOiJGT1VSTklTU0VVUiIsImVtYWlsIjoiaWJyYWhpbWEubmRpYXllNDUwQGdtYWlsLmNvbSJ9.0Otk0v0qDatE_s7z6Cuk50LFFx2tZznJCtwXURfd1x0","user":{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","password":"3e96addf578dbae9905a83132d3f208078a8cb68","date_inscription":"2018-05-11 13:26:18","type":"FOURNISSEUR","telephone":"+221 77 814 03 52","solde":"0"},"categories":[{"id_categorie":"1","nom_categorie":"Cosm\u00e9tique"},{"id_categorie":"2","nom_categorie":"Electronique"},{"id_categorie":"3","nom_categorie":"Jardin"},{"id_categorie":"4","nom_categorie":"Pr\u00eat \u00e0 porter"},{"id_categorie":"5","nom_categorie":"Alimentaire"},{"id_categorie":"6","nom_categorie":"Divers"}]}
+Request: GET /easyorder/fournisseur/all [] 19-05-2018, 00h 01mn 39s ---> {"success":true,"data":[{"id_user":"3","email":"ibrahima.ndiaye450@gmail.com","telephone":"+221 77 814 03 52","nom_societe":"Xelcom Stuff","nom_image_profil":"YdIbhc5N1DbeFEflbPYu3gAudyOHaMRYSxr.png"},{"id_user":"4","email":"cvision@gmail.com","telephone":"+221 77 555 44 11","nom_societe":"Commerce Vision","nom_image_profil":"H4PlGSlKCnKidSt6HgwLNQlmIuVvbwIhqNH.png"},{"id_user":"5","email":"yoffbazar@gmail.com","telephone":"+221 77 555 06 87","nom_societe":"Yoff Bazar","nom_image_profil":"DUiTqF1eYwKc9q5xiR6reNqDjG7mnwMjNLv.png"}]}
+Request: POST /easyorder/produit/findAll [idFournisseur=3, idUser=3] 19-05-2018, 00h 01mn 41s ---> {"success":true,"data":[{"id_produit":"1","titre":"Un Scan de MANGA","description":"Il est tr\u00c3\u00a8s rare","prix":"35000","nom_fichier":"do1qnYBO3fLZfOdkoKbEtFnjYE29PiQvxH3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"2","titre":"Document de Google","description":"Un document imprim\u00c3\u00a9 depuis la maison m\u00c3\u00a8re de Google et envoy\u00c3\u00a9 \u00c3\u00a0 moi m\u00c3\u00aame","prix":"45000","nom_fichier":"DMWNwTyD1EubV1l8CucKU1EHa5OeeDf3ra3.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"3","titre":"Cobaye","description":"rien de particulier","prix":"2400","nom_fichier":"uOfJYmYVmCQntzqOGFQrOTEZdHYGK4peIt1.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"4","titre":"Nivea","description":"Juste du lait de corps","prix":"2500","nom_fichier":"2j7w4sLKkVO32zf0VJvIbhANzwWigjyQ10S.jpg","id_fournisseur":"3","id_categorie":"1"},{"id_produit":"6","titre":"Ketchup","description":"Un ketchup tr\u00c3\u00a8s bon","prix":"2500","nom_fichier":"BU0K3ZrweKAgvEydHGW4ajP5KvOWMIZS8WX.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"7","titre":"Gauffre","description":"C'est excellent pour le gouter","prix":"1800","nom_fichier":"C7COmBJ8QUK1gUE4nUSomNqxXSLEn1Phly7.jpg","id_fournisseur":"3","id_categorie":"5"},{"id_produit":"8","titre":"Gouverneur","description":"Un gouverneur","prix":"999999999","nom_fichier":"y4kB3iHJRcuuAx2kjwdeEQmFFKiBZXnvFFr.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"9","titre":"Harry potter Flyer","description":"Ceci est un produit de test ","prix":"12000","nom_fichier":"TDSnL6vgLGGfDIUqz47oi3Nf3xVzwQWsXQP.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"10","titre":"Test de produit","description":"Ceci est un test","prix":"25000","nom_fichier":"w3R4P3JCYDOW54X1I2ujZLhMuYDUiTqF1eY.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"11","titre":"Test de produit","description":"Ceci est un test","prix":"25000","nom_fichier":"wKc9q5xiR6reNqDjG7mnwMjNLvHnnUhuP4e.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"12","titre":"Test de produit","description":"Ceci est un test","prix":"25000","nom_fichier":"X6zi8EvGSru7vWBPS9rvku6oIXacm1K88Eq.jpg","id_fournisseur":"3","id_categorie":"6"},{"id_produit":"13","titre":"aaaa","description":"Ceci esr un tes","prix":"2500","nom_fichier":"WmjhOTXWu45taJDuAe54XpqOZC6NVG5EsXQ.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: POST /easyorder/produit/getUpdates [idFournisseur=3, idUser=3] 19-05-2018, 00h 03mn 56s ---> {"success":true,"message":"No message from the server","data":[]}
+Request: POST /easyorder/produit/getUpdates [idFournisseur=3, idUser=3] 19-05-2018, 00h 04mn 54s ---> {"success":true,"message":"No message from the server","data":[]}
+Request: POST /easyorder/produit/add [titre=Just testing, description=ok let me know , prix=15000, id_categorie=6] 19-05-2018, 00h 07mn 36s ---> {"success":true}
+Request: POST /easyorder/produit/getUpdates [idFournisseur=3, idUser=3] 19-05-2018, 00h 07mn 52s ---> {"success":true,"message":"No message from the server","data":[{"id_produit":"14","titre":"Just testing","description":"ok let me know ","prix":"15000","nom_fichier":"0DB82ByQ0pziwKZXFQDO2rSjJJxrkrYFWM1.jpg","id_fournisseur":"3","id_categorie":"6"}]}
+Request: POST /easyorder/produit/getUpdates [idFournisseur=3, idUser=3] 19-05-2018, 00h 08mn 06s ---> {"success":true,"message":"No message from the server","data":[]}
+Request: POST /easyorder/produit/getUpdates [idFournisseur=3, idUser=3] 19-05-2018, 00h 08mn 38s ---> {"success":true,"message":"No message from the server","data":[]}

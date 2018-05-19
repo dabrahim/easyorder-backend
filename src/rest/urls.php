@@ -6,5 +6,6 @@
  * Time: 8:59 PM
  */
 $urls = array(
-    '/connexion' => 'connexion'
+    '/connexion' => 'connexion',
+    '/categorie/getAll' => 'getAllCategories'
 );

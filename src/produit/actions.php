@@ -41,6 +41,55 @@ function find ( $action ) {
     $action->response()->toJson( $result );
 }
 
+//////
+function findAll ( $action ) {
+    $req = $action->request();
+    $post = $req->post();
+
+    $result = array(
+        'success' => false
+    );
+
+    try {
+        $pService = new ProduitService();
+        $produits = $pService->find($post);
+
+        if ($produits) {
+            $result['success'] = true;
+            $result['data'] = $produits;
+
+        } else {
+            $result['message'] = "Aucun résultat correspondant à votre recherche n'a été trouvé!";
+        }
+
+    } catch (Exception $e) {
+        $result['message'] = $e->getMessage();
+    }
+
+    $action->response()->toJson( $result );
+}
+
+function getUpdates (\Esmt\Pharmaliv\Action $action){
+    $req = $action->request();
+    $result = array(
+        'success' => false,
+        'message' => 'No message from the server'
+    );
+
+    if ($req->type() == 'POST'){
+        $pService = new ProduitService();
+        $postData = $req->post();
+
+        $user = new User();
+        $user->setIdUser($postData['idUser']);
+
+        $result['data'] = $pService->getUpdates($user);
+        $result['success'] = true;
+    }
+
+    $action->response()->toJson($result);
+}
+
 function addProduct ( \Esmt\Pharmaliv\Action $action ){
     $req = $action->request();
     $result = array(

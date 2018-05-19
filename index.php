@@ -45,12 +45,17 @@
 
 			$action = new \ESMT\PHARMALIV\Action ( $request, $response );
 
+			ob_start();
 			if (count($params) > 0){
 				$method( $action ,$params );
 
 			} else {
 				$method ( $action );
 			}
+            $out = ob_get_clean();
+            echo $out;
+
+			saveIntoLogs( $out );
 
 		// SI L'URL N'APPARTIENT PAS A LA SECTION
 		} else {

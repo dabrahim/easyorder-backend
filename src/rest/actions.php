@@ -19,9 +19,6 @@ function connexion ( $action ) {
     $uService = new UserService();
     $user = $uService->authenticate($user);
 
-//    var_dump($user);
-
-
     $key = "5wu{@N\"i!^G>M5z0Zzk,e8,w1G$5[#";
 
     if ( $user ) {
@@ -33,22 +30,19 @@ function connexion ( $action ) {
 
         $result['success'] = true;
         $result['token'] = JWT::encode($token, $key, 'HS256');
+        $result['user'] = $user;
+
+        $cService = new CategorieService();
+        $result['categories'] = $cService->getAll();
 
    } else {
        $result['success'] = false;
    }
 
     $action->response()->toJson($result);
-    /**
-     * IMPORTANT:
-     * You must specify supported algorithms for your application. See
-     * https://tools.ietf.org/html/draft-ietf-jose-json-web-algorithms-40
-     * for a list of spec-compliant algorithms.
-     */
-//    $decoded = JWT::decode($jwt, $key, array('HS256'));
+}
 
-//    var_dump($jwt);
-
-    /*$decoded_array = (array) $decoded;
-    var_dump($decoded_array);*/
+function getAllCategories( $action ) {
+    $cService = new CategorieService();
+    $action->response()->toJson( $cService->getAll() ) ;
 }

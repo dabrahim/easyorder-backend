@@ -12,8 +12,8 @@ class CategorieService extends AbstractService implements CategorieDAO {
         parent::__construct();
     }
 
-    public function getAll(){
-        $pdoStatement = $this->_db->query("SELECT * FROM categorie");
+    public function getAll() {
+        $pdoStatement = $this->getDb()->query("SELECT * FROM categorie");
         return $pdoStatement->fetchAll(PDO::FETCH_ASSOC);
     }
 

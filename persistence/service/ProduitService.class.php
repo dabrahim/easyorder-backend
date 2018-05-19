@@ -13,14 +13,32 @@ class ProduitService extends AbstractService implements ProduitDAO {
     }
 
     public function create(Produit $produit){
-        $pdoStatement = $this->getDb()->prepare( "INSERT INTO produit VALUES (NULL, :titre, :description, :prix, :nomFichier, :idFournisseur, :idCategorie)" );
-        $pdoStatement->bindValue(':titre', $produit->getTitre(), PDO::PARAM_STR);
-        $pdoStatement->bindValue(':description', $produit->getDescription(), PDO::PARAM_STR);
-        $pdoStatement->bindValue(':prix', $produit->getPrix(), PDO::PARAM_INT);
-        $pdoStatement->bindValue(':nomFichier', $produit->getNomFichier(), PDO::PARAM_STR);
-        $pdoStatement->bindValue(':idFournisseur', $produit->getFournisseur()->getIdUser(), PDO::PARAM_INT);
-        $pdoStatement->bindValue(':idCategorie', $produit->getCategorie()->getId(), PDO::PARAM_INT);
-        return $pdoStatement->execute();
+        try {
+            $this->getDb()->beginTransaction();
+            $pdoStatement = $this->getDb()->prepare( "INSERT INTO produit VALUES (NULL, :titre, :description, :prix, :nomFichier, :idFournisseur, :idCategorie)" );
+            $pdoStatement->bindValue(':titre', $produit->getTitre(), PDO::PARAM_STR);
+            $pdoStatement->bindValue(':description', $produit->getDescription(), PDO::PARAM_STR);
+            $pdoStatement->bindValue(':prix', $produit->getPrix(), PDO::PARAM_INT);
+            $pdoStatement->bindValue(':nomFichier', $produit->getNomFichier(), PDO::PARAM_STR);
+            $pdoStatement->bindValue(':idFournisseur', $produit->getFournisseur()->getIdUser(), PDO::PARAM_INT);
+            $pdoStatement->bindValue(':idCategorie', $produit->getCategorie()->getId(), PDO::PARAM_INT);
+            if($pdoStatement->execute()){
+                $idProduit = $this->getDb()->lastInsertId();
+                $pdoStatement = $this->getDb()->prepare("SELECT id_client FROM register_client_fournisseur WHERE id_fournisseur = :idFournisseur ");
+                $pdoStatement->bindValue(":idFournisseur", $produit->getFournisseur()->getIdUser(), PDO::PARAM_INT);
+                $pdoStatement->execute();
+
+                while($rslt = $pdoStatement->fetch(PDO::FETCH_ASSOC)){
+                    $rq = $this->getDb()->prepare("INSERT INTO notification_client_produit VALUES (:idClient, :idProduit)");
+                    $rq->execute(array("idClient" => $rslt['id_client'], "idProduit" => $idProduit));
+                }
+            }
+            $this->getDb()->commit();
+
+        } catch (Exception $e) {
+            $this->getDb()->rollback();
+            throw  $e;
+        }
     }
 
     public function find(array $filters) {
@@ -45,7 +63,17 @@ class ProduitService extends AbstractService implements ProduitDAO {
             $pdoStatement->bindValue(":idCategorie", $filters['idCategorie'], PDO::PARAM_INT);
         }
 
-        $pdoStatement->execute();
+        if($pdoStatement->execute() && isset($filters['idUser'])){
+            $idUser = $filters['idUser'];
+            $ps = $this->getDb()->prepare("DELETE FROM register_client_fournisseur WHERE id_client = :idClient");
+            $ps->bindValue(":idClient",$idUser, PDO::PARAM_INT);
+            $ps->execute();
+
+            $ps = $this->getDb()->prepare("INSERT INTO register_client_fournisseur VALUES (:idClient, :idFournisseur)");
+            $ps->bindValue(":idClient",$idUser, PDO::PARAM_INT);
+            $ps->bindValue("idFournisseur", $filters['idFournisseur'], PDO::PARAM_INT);
+            $ps->execute();
+        }
         return $pdoStatement->fetchAll(PDO::FETCH_ASSOC);
     }
 
@@ -54,5 +82,17 @@ class ProduitService extends AbstractService implements ProduitDAO {
         return $pdoStatement->fetchAll(PDO::FETCH_ASSOC);
     }
 
+    public function getUpdates(User $user) {
+        $pdoStatement = $this->getDb()->prepare("SELECT p.* FROM produit p INNER JOIN fournisseur f ON p.id_fournisseur = f.id_fournisseur INNER JOIN notification_client_produit r ON r.id_produit = p.id_produit WHERE r.id_client = :idClient");
+        $pdoStatement->bindValue(":idClient", $user->getIdUser(), PDO::PARAM_INT);
+        $pdoStatement->execute();
+        $result = $pdoStatement->fetchAll(PDO::FETCH_ASSOC);
 
+
+        $pdoStatement = $this->getDb()->prepare("DELETE FROM notification_client_produit WHERE id_client = :idClient");
+        $pdoStatement->bindValue(":idClient", $user->getIdUser(), PDO::PARAM_INT);
+        $pdoStatement->execute();
+
+        return $result;
+    }
 }

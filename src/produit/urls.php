@@ -6,7 +6,9 @@
  * Time: 1:22 PM
  */
 
-$urls = array(
+$urls = array (
     '/find' => 'find',
-    '/add' => 'addProduct'
+    '/findAll' => 'findAll',
+    '/add' => 'addProduct',
+    '/getUpdates' => 'getUpdates'
 );

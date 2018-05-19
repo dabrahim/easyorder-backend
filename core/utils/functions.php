@@ -111,3 +111,28 @@
         $data = decodeToken( $token );
         return $data;
     }
+
+    function toString (array $array) {
+        $tmp = array();
+        foreach ($array as $key => $value) {
+            $tmp[] = $key . "=" . $value;
+        }
+        $output = "[" . implode(", ", $tmp) . "]";
+        return $output;
+    }
+
+    function saveIntoLogs ($response) {
+        $uri = $_SERVER['REQUEST_URI'];
+        $method = $_SERVER['REQUEST_METHOD'];
+        $currentDateTime = date("d-m-Y, H\h i\m\\n s\s");
+
+        if ($method == 'GET'){
+            $data = toString( $_GET );
+        } else if ($method == 'POST'){
+            $data = toString( $_POST );
+        }
+
+        $log = "Request: ".$method." ". $uri ." ". $data . " " . $currentDateTime. " ---> " .$response;
+        $file = fopen("./core/logs.txt", 'a');
+        fwrite($file, $log . PHP_EOL);
+    }

@@ -12,4 +12,6 @@ interface ProduitDAO {
     public function find (array $filters);
 
     public function findAll ();
+
+    public function getUpdates(User $user);
 }

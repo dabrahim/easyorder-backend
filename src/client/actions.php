@@ -27,15 +27,17 @@ function addClient ( \Esmt\Pharmaliv\Action $action ) {
             $cService = new ClientService();
             if ($cService->create( $client )){
                 $result['success'] = true;
+                http_response_code(200);
             } else {
                 $result['message'] = "L'inscription a échouée. Veuillez réessayer plus tard";
             }
         } else {
             $result['message'] = "Les deux mots de passe ne correspondent pas.";
+            http_response_code(400);
         }
 
     } else {
-        $result['message'] = "Cette route est uniquement accessible en GET";
+        $result['message'] = "Cette route est uniquement accessible en POST";
         http_response_code(400);
     }
 

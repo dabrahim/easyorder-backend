@@ -20,7 +20,7 @@ class CustomPDO {
     {
         if ( self::$_instance== null ){
             self::$_instance = new PDO("mysql:host=localhost;dbname=easyorder", "dabrahim", "131296",
-                array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+                array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
         }
         return self::$_instance;
     }

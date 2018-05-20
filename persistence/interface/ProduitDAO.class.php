@@ -14,4 +14,8 @@ interface ProduitDAO {
     public function findAll ();
 
     public function getUpdates(User $user);
+
+    public function saveCommande($idUser,$idFournisseur, $montant, $data);
+
+    public function getDetailsCommande ($idCommande);
 }

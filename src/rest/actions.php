@@ -46,3 +46,36 @@ function getAllCategories( $action ) {
     $cService = new CategorieService();
     $action->response()->toJson( $cService->getAll() ) ;
 }
+
+function saveOrder ($action) {
+    $req = $action->request();
+    $result = array(
+        'success' => false
+    );
+
+    if($req->type() == 'POST') {
+        $post = $req->post();
+        $idUser = $post['idUser'];
+        $idFournisseur = $post['idFournisseur'];
+        $montant = $post['montant'];
+
+        $data = json_decode($post['data'], true);
+
+        $pService = new ProduitService();
+        $idCommande = $pService->saveCommande($idUser, $idFournisseur, $montant, $data);
+        $result['success'] = true;
+        $result['idCommande'] = $idCommande;
+    }
+
+    $action->response()->toJson($result);
+}
+
+function detailsCommande($action, $params) {
+    $idCommande = $params[1];
+    $pService = new ProduitService();
+    $action->response()->toJson($pService->getDetailsCommande($idCommande));
+}
+
+function payer ($action) {
+
+}

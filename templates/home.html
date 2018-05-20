@@ -12,7 +12,8 @@
     <input type="text" placeholder="E-mail" name="email"><br>
     <input type="password" placeholder="Mot de passe" name="password"><br>
     <button type="submit">Se Connecter</button>
-</form>
+</form><br>
+<a href="./fournisseur/inscription">Je n'ai pas encore de compte</a>
 {% endblock %}
 
 {% block scripts %}
@@ -24,6 +25,7 @@
             if(response.success) {
                 localStorage.setItem('eo_jwt_token', response.token);
                 window.location.reload(false);
+                window.location = './fournisseur';
             } else {
                 alert("identifiant ou mot de passe incorrect");
             }

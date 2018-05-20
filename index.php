@@ -1,6 +1,6 @@
 <?php
 	// LISTE DES CONFIGUARION DU FRAMEWORK
-	//Ceci est un autre commentaire
+	//Ceci est un autre commentaire>
 	require_once './core/config.php';
 
 	$request = new \ESMT\PHARMALIV\Request;

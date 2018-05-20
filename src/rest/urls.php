@@ -7,5 +7,8 @@
  */
 $urls = array(
     '/connexion' => 'connexion',
-    '/categorie/getAll' => 'getAllCategories'
+    '/categorie/getAll' => 'getAllCategories',
+    '/publierCommande' => 'saveOrder',
+    '/getCommande/{:}' => 'detailsCommande',
+    '/payer' => 'payer'
 );

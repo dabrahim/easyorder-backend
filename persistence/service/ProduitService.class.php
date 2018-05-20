@@ -95,4 +95,43 @@ class ProduitService extends AbstractService implements ProduitDAO {
 
         return $result;
     }
+
+    public function saveCommande($idUser,$idFournisseur, $montant, $data) {
+        $pdo = $this->getDb()->prepare("INSERT INTO commande VALUES (NULL,:montant, NOW(), 'EN_ATTENTE', NULL, :idClient,
+              :idFournisseur)");
+        $pdo->execute(array('montant' => $montant, 'idClient' => $idUser, 'idFournisseur' => $idFournisseur));
+
+        $idCommande = $this->getDb()->lastInsertId();
+
+        foreach ($data as $panier) {
+            $idProduit = $panier['idProduit'];
+            $quantite = $panier['quantite'];
+
+            $pdo = $this->getDb()->prepare("INSERT INTO commande_produit VALUES (:idProduit, :quantite, :idCommande)");
+            $pdo->execute(array('idProduit' => $idProduit, 'quantite' => $quantite, 'idCommande' => $idCommande));
+        }
+
+        $qrCodeFichier = random_str(50) . ".png";
+        QRcode::png("http://192.168.43.246/easyorder/rest/getCommande/".$idCommande, './qrcodes/'.$qrCodeFichier , QR_ECLEVEL_H, 10);
+
+        $pdo = $this->getDb()->prepare("UPDATE commande SET nom_fichier_qr_code = :nomFichier WHERE id_commande = :idCommande");
+        $pdo->execute(array('nomFichier' => $qrCodeFichier, 'idCommande' => $idCommande));
+
+        return $idCommande;
+    }
+
+    public function getDetailsCommande($idCommande) {
+        $data = array();
+        $pdo = $this->getDb()->prepare("SELECT p.* FROM produit p INNER JOIN commande_produit c ON p.id_produit = c.id_produit WHERE c.id_commande = :idCommande");
+        $pdo->execute(array('idCommande' => $idCommande));
+
+        $data['produits'] = $pdo->fetchAll(PDO::FETCH_ASSOC);
+        $pdo = $this->getDb()->prepare("SELECT * FROM commande WHERE id_commande = :idCommande");
+
+        $pdo->execute(array('idCommande' => $idCommande));
+        $data['commande'] = $pdo->fetch(PDO::FETCH_ASSOC);
+        return $data;
+    }
+
+
 }
